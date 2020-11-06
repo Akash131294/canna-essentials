@@ -42,8 +42,8 @@ android {
       def locale
 
       // get the shop setting from the environment if there any
-      shopDomain = System.getenv("SHOP_DOMAIN")
-      apiKey = System.getenv("API_KEY")
+      shopDomain = "canna-essentials.myshopify.com"
+      apiKey = "7f606dd04114363549b7aeaca0b01aab"
       androidPayPublicKey = System.getenv("ANDROID_PAY_PUBLIC_KEY")
       androidPayEnvironment = System.getenv("ANDROID_PAY_ENVIRONMENT")
       locale = System.getenv("DEFAULT_LOCALE") ?: null
